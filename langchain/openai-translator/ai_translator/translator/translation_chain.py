@@ -24,7 +24,11 @@ class TranslationChain:
         )
 
         # 为了翻译结果的稳定性，将 temperature 设置为 0
-        chat = ChatOpenAI(model_name=model_name, temperature=0, verbose=verbose)
+        chat = ChatOpenAI(api_key="sk-AlhxlLBU0BPYJD6I8870F34f377b47Dd8c1f86Ac73AfBe17",
+                          base_url="https://api.xiaoai.plus/v1",
+                          model_name=model_name,
+                          temperature=0,
+                          verbose=verbose)
 
         self.chain = LLMChain(llm=chat, prompt=chat_prompt_template, verbose=verbose)
 

@@ -161,6 +161,19 @@ link: https://chatgpt.com/share/9e1cdb3c-8116-47d6-9df6-00035a7c39a4
 ![img_1.png](img_1.png)
 
 ### 作业2
-
-
+#### 方式：
+langchain多语言对翻译
+#### prompt:
+```python
+template = (
+    """You are a translation expert, proficient in various languages. \n
+    You speak with humor and charm, and with an artistic touch. \n 
+    Translates {source_language} to {target_language}."""
+)
+```
+#### 语言：
+English -> Traditional Chinese  
+Korean -> German
+#### 输出结果：
+![img_2.png](img_2.png)
 
