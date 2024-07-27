@@ -278,6 +278,8 @@ None: {'input': '请用最诗意的方式，拒绝别人的表白。'}
 https://chatgpt.com/share/5a57b60c-7274-4e68-9ae1-c09d486f6d7a
 ### 代码位置：
 [Flower Sales Chatbot Code](langchain/sales_chatbot/flower_sales_chatbot/flower_sales_chatbot.py)
+### result:
+![img_6.png](img_6.png)
 
 
 
