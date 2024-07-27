@@ -152,6 +152,8 @@ link: https://chatgpt.com/share/9e1cdb3c-8116-47d6-9df6-00035a7c39a4
 
 ## Day 2 Homework
 ### 作业1
+#### 代码位置：
+[Current File](openai_api/gpt-4v.ipynb)
 #### prompt: 
 我将请你帮我识别图片中的手写文字。图中可能会有简体中文，英文，也可能有手画的小人。请你帮我提取出文字，并总结其中心思想。
 #### 输出结果：
@@ -161,8 +163,9 @@ link: https://chatgpt.com/share/9e1cdb3c-8116-47d6-9df6-00035a7c39a4
 ![img_1.png](img_1.png)
 
 ### 作业2
-#### 方式：
-langchain多语言对翻译
+#### 代码位置：
+[Current File](openai-translator/ai_translator/main.py)
+
 #### prompt:
 ```python
 template = (
@@ -172,12 +175,18 @@ template = (
 )
 ```
 #### 语言：
-English -> Traditional Chinese  
-Korean -> German
+日文、韩文、繁体中文
+#### 代码：
+![img_5.png](img_5.png)
 #### 输出结果：
-![img_2.png](img_2.png)
+- [Japanese Translation](openai-translator/ai_translator/output_japanese.md)
+- [Korean Translation](openai-translator/ai_translator/output_korean.md)
+- [Traditional Chinese Translation](openai-translator/ai_translator/output_traditional_chinese.md)
+
 
 ### 作业3
+#### 代码位置：
+[Current File](langchain/jupyter/chains/router_chain.ipynb)
 #### prompt:
 ```python
 medicine_template = """你是一位医学专家。你擅长回答医学问题。
@@ -265,8 +274,10 @@ None: {'input': '请用最诗意的方式，拒绝别人的表白。'}
 {'input': '如何通过AI来赚取零花钱？', 'text': '\n\n通过AI来赚取零花钱是一个很有趣的问题。首先，需要明确的是，AI并不是一种直接赚钱的手段，它更多的是一种技术和工具。因此，要通过AI来赚取零花钱，需要结合具体的应用场景和商业模式。\n\n一种可能的方式是通过开发AI应用来解决现实问题，从而获得收益。例如，可以开发一款基于机器学习的旅行规划软件，帮助用户根据个人喜好和预算规划最佳的旅行路线，从中获得一定的收益。或者开发一款AI智能家居系统，帮助用户实现节能和智能控制，从中获得收益。\n\n另一种方式是通过参与人工智能相关的竞赛和项目来赚'}
 
 ## Day 3 Homework
-### 作业1
-生成数据：https://chatgpt.com/share/5a57b60c-7274-4e68-9ae1-c09d486f6d7a
-### 作业2
-利用生成的数据，制作鲜花销售聊天机器人
+### 生成数据：
+https://chatgpt.com/share/5a57b60c-7274-4e68-9ae1-c09d486f6d7a
+### 代码位置：
+[Flower Sales Chatbot Code](langchain/sales_chatbot/flower_sales_chatbot/flower_sales_chatbot.py)
+
+
 

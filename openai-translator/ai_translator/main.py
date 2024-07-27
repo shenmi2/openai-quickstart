@@ -25,5 +25,6 @@ if __name__ == "__main__":
 
     # 实例化 PDFTranslator 类，并调用 translate_pdf() 方法
     translator = PDFTranslator(model)
-    translator.translate_pdf(pdf_file_path, file_format, '日文')
-    translator.translate_pdf(pdf_file_path, file_format, '韩文')
+    translator.translate_pdf(pdf_file_path, file_format, '日文', 'output_japanese.md')
+    translator.translate_pdf(pdf_file_path, file_format, '韩文', 'output_korean.md')
+    translator.translate_pdf(pdf_file_path, file_format, '繁体中文', 'output_traditional_chinese.md')
